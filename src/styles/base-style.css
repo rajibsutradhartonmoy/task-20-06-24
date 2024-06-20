@@ -1,0 +1,38 @@
+:root {
+  --border: #cdcdcd;
+  --border-dark: #bdbdbd;
+  --foreground: #1f2128;
+  --background: #fff;
+  --primary: #ffce22;
+  --primary-light: #ffd84d;
+  --primary-content: #1f2128;
+
+  --checked: #5087f8;
+  --checked-dark: #2469f6;
+  --checked-shadow: rgba(213, 227, 253, 0.75);
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
